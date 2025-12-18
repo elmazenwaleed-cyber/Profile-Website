@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who Is Me</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <style>
+        .fa-bars {
+            color: white;
+            font-size: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <header class="wow fadeIn">
+        <nav>
+            <!-- left side -->
+             <div class="logo">
+                <a id="name">MazenWaleed </a>
+             </div>
+            <!-- right side -->
+            <input id="menu-box" type="checkbox">
+             <label for="menu-box" id="menu-icon"><i class="fa-solid fa-bars"></i></label>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Who Am I ?</a></li>
+                    <li><a href="">Social Media</a></li>
+                    <li id="btn"><a href="">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <!-- left side -->
+        <div>
+            <h2 class="wow fadeInLeft">My Name is ... <span>MazenWaleed </span>  </h2>
+            <p class="wow fadeInUp">Iam a <span class="highLight">Front-End Developer</span> and Content Creator , I Can <br /> Make For You <span class="highLight">Any Webite</span>  You Want and I Can Teach You <span class="highLight">Programming</span> </p>
+            <div  class="btns">
+              <a href="#" class="btn-0">
+                <i class="fa-brands fa-youtube"></i>
+                <h4>Youtube</h4>
+              </a>
+              <a href="#" class="btn">
+                <i class="fa-brands fa-instagram"></i>
+                <h4>Instagram</h4>
+              </a>
+            </div>
+        </div>
+        <!-- right side -->
+         <div class="wow rotateIn" class="image-container">
+          <img  class="photo" width="400px" src="photo.jpg" alt="Photo">
+         </div>
+    </section>
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
